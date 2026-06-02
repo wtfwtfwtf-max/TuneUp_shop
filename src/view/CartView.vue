@@ -10,14 +10,14 @@ const cartItems = ref([
     name: 'AirPods Pro 3',
     price: 7499,
     quantity: 1,
-    img: '/src/assets/image/product_card/sales_area/product_card_1.svg'
+    img: '/assets/image/product_card/sales_area/product_card_1.svg'
   },
   {
     id: '2',
     name: 'Sony WH-1000XM5',
     price: 9900,
     quantity: 1,
-    img: '/src/assets/image/product_card/sales_area/product_card_2.svg'
+    img: '/assets/image/product_card/sales_area/product_card_2.svg'
   }
 ]);
 
@@ -42,7 +42,7 @@ const updateQuantity = (id: string, delta: number) => {
 </script>
 
 <template>
-  <div class="px-[7.25em] py-18 min-h-screen">
+  <div class="px-[7.25em] py-18 min-h-screen flex justify-center">
     <div class="w-[93.5em]">
       <h1 class="text-3xl font-bold mb-8 text-gray-800">您的購物車</h1>
 

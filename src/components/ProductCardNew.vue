@@ -21,7 +21,7 @@ const goToDetail = () => {
     class="flex flex-col relative w-[12.25em] h-[17.5em] md:w-[22.25em] md:h-[26.75em] bg-[#f2f3f5] items-center text-center rounded-lg mt-0 cursor-pointer transition-transform hover:scale-105 flex-shrink-0 max-w-full p-0 justify-normal"
     @click="goToDetail"
   >
-    <img src="/src/assets/image/icon/new_icon.svg" class="absolute top-[0.6em] md:top-[1.125em] left-[0.6em] md:left-[1.125em] w-[2em] md:w-auto h-auto" />
+    <img src="/assets/image/icon/new_icon.svg" class="absolute top-[0.6em] md:top-[1.125em] left-[0.6em] md:left-[1.125em] w-[2em] md:w-auto h-auto" />
     <img :src="info.img" class="mt-5 mb-5 max-md:mt-8 max-md:mb-2 max-md:max-h-[50%] object-contain" />
 
     <div class="w-full md:w-[10.25em] grid gap-1 md:gap-3 text-center items-center mt-2 md:mt-0">

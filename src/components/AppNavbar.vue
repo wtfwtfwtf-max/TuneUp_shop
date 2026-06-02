@@ -49,7 +49,7 @@ const navItems = [
       <!-- Logo Left -->
       <div class="flex-shrink-0">
         <router-link to="/">
-          <img src="/src/assets/image/logo.svg" alt="Logo" class="logoImg transition-all duration-300" :class="isCompact ? 'h-20 w-auto' : 'w-[13.5em] h-[7em]'" />
+          <img src="/assets/image/logo.svg" alt="Logo" class="logoImg transition-all duration-300" :class="isCompact ? 'h-20 w-auto' : 'w-[13.5em] h-[7em]'" />
         </router-link>
       </div>
 
@@ -73,7 +73,7 @@ const navItems = [
             <IconField iconPosition="right" class="searchField">
               <InputText v-model="value" placeholder="#耳機關鍵字" class="searchInput" />
               <InputIcon class="searchIconWrapper">
-                <img src="/src/assets/image/icon/search.svg" class="searchIconImg" />
+                <img src="/assets/image/icon/search.svg" class="searchIconImg" />
               </InputIcon>
             </IconField>
           </div>
@@ -99,7 +99,7 @@ const navItems = [
     <!-- Mobile Layout (Visible below lg) -->
     <div class="mobileLayout flex lg:hidden items-center justify-between w-full px-4 h-full">
       <router-link to="/">
-        <img src="/src/assets/image/logo.svg" alt="Logo" class="h-20 w-auto" />
+        <img src="/assets/image/logo.svg" alt="Logo" class="h-20 w-auto" />
       </router-link>
       
       <Button 

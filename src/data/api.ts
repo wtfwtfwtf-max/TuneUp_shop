@@ -1,14 +1,21 @@
 ﻿import axios from 'axios';
 import { z } from 'zod';
 
-// 1. 定義商品基礎 Schema
+// 1. 定義商品基礎 Schema (與 db.json 實際欄位對應)
 export const ProductSchema = z.object({
-  id: z.number(),
-  title: z.string(),
-  price: z.number(),
-  image: z.string(),
-  // 這裡可以根據 db.json 實際欄位調整，例如有些商品有 discountPrice
-  discountPrice: z.number().optional(),
+  id: z.union([z.string(), z.number()]), // 支援字串和數字 ID
+  name: z.string(),
+  img: z.string(),
+  // 不同商品有不同的價格欄位
+  price: z.number().optional(),
+  Price: z.number().optional(),
+  oldPrice: z.number().optional(),
+  newPrice: z.number().optional(),
+  // 其他欄位
+  type: z.string().optional(),
+  flag: z.string().optional(),
+  isLarge: z.boolean().optional(),
+  amount: z.number().optional(),
   tag: z.string().optional(),
 });
 

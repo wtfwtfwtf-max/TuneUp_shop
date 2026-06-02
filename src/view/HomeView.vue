@@ -56,7 +56,7 @@ onMounted(async () => {
           />
         </router-link>
         <img 
-          src="/src/assets/image/banner.svg" 
+          src="/assets/image/banner.svg" 
           alt="banner_1" 
           class="w-full h-auto min-h-[12em] min-[1496px]:h-[45em] object-cover rounded-none lg:rounded-[8px]" 
         />

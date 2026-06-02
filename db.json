@@ -5,7 +5,7 @@
       "name": "AirPods Pro 3",
       "oldPrice": 7499,
       "newPrice": 3499,
-      "img": "/src/assets/image/product_card/sales_area/product_card_1.svg",
+      "img": "/assets/image/product_card/sales_area/product_card_1.svg",
       "type": "discount"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Sony WH-1000XM5",
       "oldPrice": 11900,
       "newPrice": 9900,
-      "img": "/src/assets/image/product_card/sales_area/product_card_2.svg",
+      "img": "/assets/image/product_card/sales_area/product_card_2.svg",
       "type": "discount"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Bose QC45",
       "oldPrice": 10500,
       "newPrice": 8500,
-      "img": "/src/assets/image/product_card/sales_area/product_card_3.svg",
+      "img": "/assets/image/product_card/sales_area/product_card_3.svg",
       "type": "discount"
     },
     {
@@ -29,7 +29,7 @@
       "name": "TuneUp Pro 1",
       "oldPrice": 5999,
       "newPrice": 2999,
-      "img": "/src/assets/image/product_card/sales_area/product_card_4.svg",
+      "img": "/assets/image/product_card/sales_area/product_card_4.svg",
       "type": "discount"
     }
   ],
@@ -38,8 +38,8 @@
       "id": "1",
       "name": "Beats Studio Pro",
       "price": 9990,
-      "img": "/src/assets/image/product_card/top_sales/product_card_1.svg",
-      "flag": "/src/assets/image/icon/top_1.svg",
+      "img": "/assets/image/product_card/top_sales/product_card_1.svg",
+      "flag": "/assets/image/icon/top_1.svg",
       "isLarge": true
     }
   ],
@@ -48,16 +48,16 @@
       "id": "2",
       "name": "Sony WH-1000XM5",
       "price": 9900,
-      "img": "/src/assets/image/product_card/top_sales/product_card_2.svg",
-      "flag": "/src/assets/image/icon/top_2.svg",
+      "img": "/assets/image/product_card/top_sales/product_card_2.svg",
+      "flag": "/assets/image/icon/top_2.svg",
       "isLarge": false
     },
     {
       "id": "3",
       "name": "Bose QC45",
       "price": 8500,
-      "img": "/src/assets/image/product_card/top_sales/product_card_3.svg",
-      "flag": "/src/assets/image/icon/top_3.svg",
+      "img": "/assets/image/product_card/top_sales/product_card_3.svg",
+      "flag": "/assets/image/icon/top_3.svg",
       "isLarge": false
     }
   ],
@@ -66,25 +66,25 @@
       "id": "1",
       "name": "AirPods Pro 3",
       "Price": 7499,
-      "img": "/src/assets/image/product_card/sales_area/product_card_1.svg"
+      "img": "/assets/image/product_card/sales_area/product_card_1.svg"
     },
     {
       "id": "2",
       "name": "Sony WH-1000XM5",
       "Price": 11900,
-      "img": "/src/assets/image/product_card/sales_area/product_card_2.svg"
+      "img": "/assets/image/product_card/sales_area/product_card_2.svg"
     },
     {
       "id": "3",
       "name": "Bose QC45",
       "Price": 10500,
-      "img": "/src/assets/image/product_card/sales_area/product_card_3.svg"
+      "img": "/assets/image/product_card/sales_area/product_card_3.svg"
     },
     {
       "id": "4",
       "name": "TuneUp Pro 1",
       "Price": 5999,
-      "img": "/src/assets/image/product_card/sales_area/product_card_4.svg"
+      "img": "/assets/image/product_card/sales_area/product_card_4.svg"
     }
   ],
   "page1ProductList": [
@@ -92,14 +92,14 @@
       "id": "1",
       "name": "AirPods Pro 3",
       "price": 7499,
-      "img": "/src/assets/image/product_list/product_list_1.svg",
+      "img": "/assets/image/product_list/product_list_1.svg",
       "amount": 8888
     },
     {
       "id": "2",
       "name": "AirPods Pro 3",
       "price": 7499,
-      "img": "/src/assets/image/product_list/product_list_2.svg",
+      "img": "/assets/image/product_list/product_list_2.svg",
       "amount": 8888
     }
   ],
@@ -108,28 +108,28 @@
       "id": "1",
       "name": "AirPods Pro 3",
       "Price": 7499,
-      "img": "/src/assets/image/product_card/default/default_card_1.svg",
+      "img": "/assets/image/product_card/default/default_card_1.svg",
       "type": "default"
     },
     {
       "id": "2",
       "name": "Sony WH-1000XM5",
       "Price": 11900,
-      "img": "/src/assets/image/product_card/default/default_card_1.svg",
+      "img": "/assets/image/product_card/default/default_card_1.svg",
       "type": "default"
     },
     {
       "id": "3",
       "name": "Bose QC45",
       "Price": 10500,
-      "img": "/src/assets/image/product_card/default/default_card_1.svg",
+      "img": "/assets/image/product_card/default/default_card_1.svg",
       "type": "default"
     },
     {
       "id": "4",
       "name": "TuneUp Pro 1",
       "Price": 5999,
-      "img": "/src/assets/image/product_card/default/default_card_1.svg",
+      "img": "/assets/image/product_card/default/default_card_1.svg",
       "type": "default"
     }
   ]
